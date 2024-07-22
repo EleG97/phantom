@@ -1,5 +1,10 @@
-Listening on 127.0.0.1:40404
-[2024-07-22 12:25:10] info Disposed of connection to running server.
-looking for token 9f2f0453-49e0-4ef6-bf7c-3d96a4a938d3, got Some("9f2f0453-49e0-4ef6-bf7c-3d96a4a938d3")
-[2024-07-22 12:25:10] info Checking /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/log.txt and /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/pid.txt for a running server...
-[2024-07-22 12:25:10] info Found running server (pid=229636)
+Listening on 127.0.0.1:45770
+[2024-07-22 15:54:17] info Disposed of connection to running server.
+looking for token 31fe987a-c2ac-444d-9f1e-db0445c85106, got Some("31fe987a-c2ac-444d-9f1e-db0445c85106")
+[2024-07-22 15:54:18] info Checking /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/log.txt and /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/pid.txt for a running server...
+[2024-07-22 15:54:18] info Found running server (pid=229636)
+[2024-07-22 15:54:39] info Disposed of connection to running server.
+[2024-07-22 15:54:40] info Disposed of connection to running server.
+looking for token 31fe987a-c2ac-444d-9f1e-db0445c85106, got Some("31fe987a-c2ac-444d-9f1e-db0445c85106")
+[2024-07-22 15:54:40] info Checking /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/log.txt and /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/pid.txt for a running server...
+[2024-07-22 15:54:40] info Found running server (pid=229636)

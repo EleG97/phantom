@@ -78,3 +78,22 @@
 2024-07-22 12:30:10.362 [info] [<unknown>][8e556ecb][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
 2024-07-22 12:30:10.367 [info] [<unknown>][c1a67331][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
 2024-07-22 12:30:10.514 [info] [<unknown>][a64dad8e][ExtensionHostConnection] <234869> Extension Host Process exited with code: 0, signal: null.
+2024-07-22 14:03:40.648 [info] [<unknown>][4c6e5fec][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-22 15:54:18.104 [info] [<unknown>][4c6e5fec][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-22 15:54:18.105 [info] [<unknown>][1cfc1067][ManagementConnection] New connection established.
+2024-07-22 15:54:18.113 [info] [<unknown>][4bffc7f5][ExtensionHostConnection] New connection established.
+2024-07-22 15:54:18.131 [info] [<unknown>][4bffc7f5][ExtensionHostConnection] <1544> Launched Extension Host Process.
+2024-07-22 15:54:36.369 [info] Getting Manifest... ms-ceintl.vscode-language-pack-it
+2024-07-22 15:54:36.460 [info] Installing extension: ms-ceintl.vscode-language-pack-it {"isMachineScoped":false,"context":{"clientTargetPlatform":"darwin-arm64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":true,"profileLocation":{"$mid":1,"fsPath":"/home/egoria/.vscode-server/extensions/extensions.json","external":"file:///home/egoria/.vscode-server/extensions/extensions.json","path":"/home/egoria/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.91.1","date":"2024-07-09T22:10:42.119Z"}}
+2024-07-22 15:54:38.787 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-it: Success. Executed: true. Duration: 1841ms.
+2024-07-22 15:54:39.015 [info] Extracted extension to file:///home/egoria/.vscode-server/extensions/ms-ceintl.vscode-language-pack-it-1.91.2024071009: ms-ceintl.vscode-language-pack-it
+2024-07-22 15:54:39.021 [info] Renamed to /home/egoria/.vscode-server/extensions/ms-ceintl.vscode-language-pack-it-1.91.2024071009
+2024-07-22 15:54:39.041 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-it
+2024-07-22 15:54:39.063 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-it file:///home/egoria/.vscode-server/extensions/extensions.json
+2024-07-22 15:54:40.843 [info] [<unknown>][52bc7988][ExtensionHostConnection] New connection established.
+2024-07-22 15:54:40.884 [info] [<unknown>][1084b63f][ManagementConnection] New connection established.
+2024-07-22 15:54:40.890 [info] [<unknown>][52bc7988][ExtensionHostConnection] <1703> Launched Extension Host Process.
+2024-07-22 15:55:09.643 [info] [<unknown>][1cfc1067][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-22 15:59:18.158 [info] [<unknown>][4c6e5fec][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-22 15:59:18.445 [info] [<unknown>][5b202cfa][ExtensionHostConnection] <239471> Extension Host Process exited with code: 0, signal: null.
+2024-07-22 15:59:40.960 [info] [<unknown>][4bffc7f5][ExtensionHostConnection] <1544> Extension Host Process exited with code: 0, signal: null.

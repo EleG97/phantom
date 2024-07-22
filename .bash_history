@@ -534,3 +534,44 @@ cd
 cd Thesis/
 ~/phantom/scripts/writemake.sh disc > Makefile
 cd
+cd Thesis/
+~/phantom/scripts/writemake.sh disc > Makefile
+cd 
+cd phantom/
+git config --global user.name "EleG97"
+git config --global user.email "goria.ele7@gmail.com"
+git stash
+git pull
+git stash pop
+cd
+git stash
+ git init
+cd phantom/
+git init
+cd
+git clone https://github.com/EleG97/phantom.git
+ls
+rm -r phantom/
+git clone https://github.com/EleG97/phantom.git
+git clone https://github.com/egoria/phantom.git
+ls
+module load intel/intel_compilers
+module load hdf5/1.12.0-intel
+module load tools/splash
+module load intel/intel_mpi
+module load gsl
+module load fftw
+ls
+git --version
+which git
+ls
+ls -l $(which git)
+git stash
+git status
+git add .
+ls
+git commit -m "Initial commit"
+git stash
+git pull
+git stash
+git pull
