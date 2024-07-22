@@ -1,0 +1,255 @@
+2024-07-22 11:26:05.007 [info] Log level: Info
+2024-07-22 11:26:05.007 [info] Validating found git in: "git"
+2024-07-22 11:26:05.007 [info] Using git "1.8.3.1" from "git"
+2024-07-22 11:26:05.007 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:26:05.007 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.007 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:26:05.007 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.007 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:26:05.007 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.007 [info] > git rev-parse --show-toplevel [8ms]
+2024-07-22 11:26:05.007 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.007 [info] > git rev-parse --show-toplevel [54ms]
+2024-07-22 11:26:05.007 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.009 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-22 11:26:05.009 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.016 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:26:05.016 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.023 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:26:05.030 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-22 11:26:05.052 [info] Open repository: /home/egoria/gizmo-public3
+2024-07-22 11:26:05.058 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/--git-common-dir/config'
+2024-07-22 11:26:05.068 [info] > git config --get commit.template [6ms]
+2024-07-22 11:26:05.068 [info] > git remote --verbose [10ms]
+2024-07-22 11:26:05.069 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-22 11:26:05.070 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:26:05.083 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [4ms]
+2024-07-22 11:26:05.089 [info] > git rev-list --left-right --count master...origin/master [3ms]
+2024-07-22 11:26:05.091 [warning] ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/.git/refs/remotes/origin/master'
+2024-07-22 11:26:05.094 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-07-22 11:26:05.104 [info] > git status -z -uall [7ms]
+2024-07-22 11:26:05.129 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/--git-common-dir/config'
+2024-07-22 11:26:05.132 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [22ms]
+2024-07-22 11:26:05.135 [info] > git config --get commit.template [4ms]
+2024-07-22 11:26:05.135 [info] > git remote --verbose [6ms]
+2024-07-22 11:26:05.211 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [74ms]
+2024-07-22 11:26:05.214 [info] > git rev-list --left-right --count master...origin/master [80ms]
+2024-07-22 11:26:05.218 [info] > git rev-list --left-right --count master...origin/master [4ms]
+2024-07-22 11:26:05.220 [warning] ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/.git/refs/remotes/origin/master'
+2024-07-22 11:26:05.222 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-07-22 11:26:05.227 [info] > git rev-parse refs/remotes/origin/master [7ms]
+2024-07-22 11:26:05.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2024-07-22 11:26:05.238 [info] > git status -z -uall [8ms]
+2024-07-22 11:26:05.268 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [23ms]
+2024-07-22 11:26:05.273 [info] > git merge-base refs/heads/master refs/remotes/origin/master [37ms]
+2024-07-22 11:26:05.279 [info] > git rev-list --left-right --count master...origin/master [7ms]
+2024-07-22 11:26:05.288 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [11ms]
+2024-07-22 11:26:05.293 [info] > git config --local branch.master.vscode-merge-base [10ms]
+2024-07-22 11:26:05.297 [info] > git diff --name-status -z --diff-filter=ADMR 97ff3cbecc93564800b50bfd6814f99bcd9e20f7...refs/remotes/origin/master [4ms]
+2024-07-22 11:26:05.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-07-22 11:26:05.590 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-22 11:27:43.360 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:27:43.360 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:28:13.970 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:28:13.970 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-22 11:34:15.597 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-22 11:34:15.604 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-07-22 11:34:15.611 [info] Open repository: /home/egoria
+2024-07-22 11:34:15.617 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:34:15.621 [info] > git remote --verbose [5ms]
+2024-07-22 11:34:15.625 [info] > git config --get commit.template [5ms]
+2024-07-22 11:34:15.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:34:15.627 [warning] No such branch: master.
+2024-07-22 11:34:15.662 [info] > git status -z -uall [31ms]
+2024-07-22 11:34:15.866 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:34:15.876 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [196ms]
+2024-07-22 11:34:15.876 [warning] No such branch: master.
+2024-07-22 11:34:15.879 [info] > git config --get commit.template [8ms]
+2024-07-22 11:34:15.879 [info] > git remote --verbose [13ms]
+2024-07-22 11:34:15.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:34:15.885 [warning] No such branch: master.
+2024-07-22 11:34:15.918 [info] > git status -z -uall [29ms]
+2024-07-22 11:34:15.951 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [26ms]
+2024-07-22 11:34:15.951 [warning] No such branch: master.
+2024-07-22 11:34:16.004 [info] > git show --textconv :phantom/src/utils/analysis_dustydisc.f90 [5ms]
+2024-07-22 11:34:16.005 [info] > git ls-files --stage -- /home/egoria/phantom/src/utils/analysis_dustydisc.f90 [2ms]
+2024-07-22 11:34:16.244 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-22 11:34:16.246 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-22 11:34:18.989 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:34:18.993 [info] > git remote --verbose [4ms]
+2024-07-22 11:34:18.997 [info] > git config --get commit.template [5ms]
+2024-07-22 11:34:18.999 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:34:18.999 [warning] No such branch: master.
+2024-07-22 11:34:19.033 [info] > git status -z -uall [31ms]
+2024-07-22 11:34:19.079 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [33ms]
+2024-07-22 11:34:19.079 [warning] No such branch: master.
+2024-07-22 11:34:24.084 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:34:24.088 [info] > git remote --verbose [4ms]
+2024-07-22 11:34:24.093 [info] > git config --get commit.template [6ms]
+2024-07-22 11:34:24.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:34:24.095 [warning] No such branch: master.
+2024-07-22 11:34:24.131 [info] > git status -z -uall [33ms]
+2024-07-22 11:34:24.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [25ms]
+2024-07-22 11:34:24.165 [warning] No such branch: master.
+2024-07-22 11:34:44.140 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:34:44.144 [info] > git remote --verbose [4ms]
+2024-07-22 11:34:44.149 [info] > git config --get commit.template [5ms]
+2024-07-22 11:34:44.151 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:34:44.151 [warning] No such branch: master.
+2024-07-22 11:34:44.182 [info] > git status -z -uall [28ms]
+2024-07-22 11:34:44.226 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [31ms]
+2024-07-22 11:34:44.226 [warning] No such branch: master.
+2024-07-22 11:34:52.225 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:34:52.229 [info] > git remote --verbose [4ms]
+2024-07-22 11:34:52.233 [info] > git config --get commit.template [5ms]
+2024-07-22 11:34:52.235 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:34:52.235 [warning] No such branch: master.
+2024-07-22 11:34:52.270 [info] > git status -z -uall [31ms]
+2024-07-22 11:34:52.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [31ms]
+2024-07-22 11:34:52.310 [warning] No such branch: master.
+2024-07-22 11:34:57.317 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:34:57.321 [info] > git remote --verbose [4ms]
+2024-07-22 11:34:57.326 [info] > git config --get commit.template [4ms]
+2024-07-22 11:34:57.328 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:34:57.328 [warning] No such branch: master.
+2024-07-22 11:34:57.362 [info] > git status -z -uall [31ms]
+2024-07-22 11:34:57.402 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [29ms]
+2024-07-22 11:34:57.402 [warning] No such branch: master.
+2024-07-22 11:35:02.407 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:02.412 [info] > git remote --verbose [5ms]
+2024-07-22 11:35:02.417 [info] > git config --get commit.template [6ms]
+2024-07-22 11:35:02.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:35:02.418 [warning] No such branch: master.
+2024-07-22 11:35:02.453 [info] > git status -z -uall [30ms]
+2024-07-22 11:35:02.490 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [27ms]
+2024-07-22 11:35:02.490 [warning] No such branch: master.
+2024-07-22 11:35:07.496 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:07.502 [info] > git remote --verbose [5ms]
+2024-07-22 11:35:07.507 [info] > git config --get commit.template [6ms]
+2024-07-22 11:35:07.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:35:07.508 [warning] No such branch: master.
+2024-07-22 11:35:07.543 [info] > git status -z -uall [30ms]
+2024-07-22 11:35:07.582 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [28ms]
+2024-07-22 11:35:07.582 [warning] No such branch: master.
+2024-07-22 11:35:12.587 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:12.592 [info] > git remote --verbose [5ms]
+2024-07-22 11:35:12.597 [info] > git config --get commit.template [6ms]
+2024-07-22 11:35:12.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:35:12.599 [warning] No such branch: master.
+2024-07-22 11:35:12.633 [info] > git status -z -uall [31ms]
+2024-07-22 11:35:12.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [31ms]
+2024-07-22 11:35:12.677 [warning] No such branch: master.
+2024-07-22 11:35:17.681 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:17.686 [info] > git remote --verbose [4ms]
+2024-07-22 11:35:17.690 [info] > git config --get commit.template [5ms]
+2024-07-22 11:35:17.692 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:35:17.692 [warning] No such branch: master.
+2024-07-22 11:35:17.725 [info] > git status -z -uall [29ms]
+2024-07-22 11:35:17.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [29ms]
+2024-07-22 11:35:17.767 [warning] No such branch: master.
+2024-07-22 11:35:22.773 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:22.778 [info] > git remote --verbose [4ms]
+2024-07-22 11:35:22.782 [info] > git config --get commit.template [5ms]
+2024-07-22 11:35:22.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:35:22.784 [warning] No such branch: master.
+2024-07-22 11:35:22.820 [info] > git status -z -uall [32ms]
+2024-07-22 11:35:22.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [34ms]
+2024-07-22 11:35:22.877 [warning] No such branch: master.
+2024-07-22 11:35:27.882 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:27.887 [info] > git remote --verbose [5ms]
+2024-07-22 11:35:27.891 [info] > git config --get commit.template [5ms]
+2024-07-22 11:35:27.893 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:35:27.894 [warning] No such branch: master.
+2024-07-22 11:35:27.928 [info] > git status -z -uall [31ms]
+2024-07-22 11:35:27.973 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [33ms]
+2024-07-22 11:35:27.973 [warning] No such branch: master.
+2024-07-22 11:35:32.978 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:32.982 [info] > git remote --verbose [4ms]
+2024-07-22 11:35:32.987 [info] > git config --get commit.template [5ms]
+2024-07-22 11:35:32.989 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:35:32.989 [warning] No such branch: master.
+2024-07-22 11:35:33.022 [info] > git status -z -uall [30ms]
+2024-07-22 11:35:33.073 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [38ms]
+2024-07-22 11:35:33.073 [warning] No such branch: master.
+2024-07-22 11:35:39.396 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:39.401 [info] > git remote --verbose [4ms]
+2024-07-22 11:35:39.405 [info] > git config --get commit.template [5ms]
+2024-07-22 11:35:39.407 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:35:39.407 [warning] No such branch: master.
+2024-07-22 11:35:39.440 [info] > git status -z -uall [29ms]
+2024-07-22 11:35:39.480 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [30ms]
+2024-07-22 11:35:39.480 [warning] No such branch: master.
+2024-07-22 11:35:52.203 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:35:52.208 [info] > git remote --verbose [5ms]
+2024-07-22 11:35:52.212 [info] > git config --get commit.template [5ms]
+2024-07-22 11:35:52.214 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:35:52.214 [warning] No such branch: master.
+2024-07-22 11:35:52.247 [info] > git status -z -uall [29ms]
+2024-07-22 11:35:52.289 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [30ms]
+2024-07-22 11:35:52.290 [warning] No such branch: master.
+2024-07-22 11:36:00.597 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:36:00.601 [info] > git remote --verbose [4ms]
+2024-07-22 11:36:00.606 [info] > git config --get commit.template [5ms]
+2024-07-22 11:36:00.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:36:00.608 [warning] No such branch: master.
+2024-07-22 11:36:00.640 [info] > git status -z -uall [28ms]
+2024-07-22 11:36:00.675 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [25ms]
+2024-07-22 11:36:00.676 [warning] No such branch: master.
+2024-07-22 11:36:05.681 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:36:05.685 [info] > git remote --verbose [5ms]
+2024-07-22 11:36:05.689 [info] > git config --get commit.template [5ms]
+2024-07-22 11:36:05.691 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:36:05.691 [warning] No such branch: master.
+2024-07-22 11:36:05.725 [info] > git status -z -uall [30ms]
+2024-07-22 11:36:05.768 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [31ms]
+2024-07-22 11:36:05.768 [warning] No such branch: master.
+2024-07-22 11:36:10.773 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:36:10.778 [info] > git remote --verbose [5ms]
+2024-07-22 11:36:10.782 [info] > git config --get commit.template [5ms]
+2024-07-22 11:36:10.784 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:36:10.785 [warning] No such branch: master.
+2024-07-22 11:36:10.817 [info] > git status -z -uall [29ms]
+2024-07-22 11:36:10.854 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [27ms]
+2024-07-22 11:36:10.854 [warning] No such branch: master.
+2024-07-22 11:38:05.586 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:38:05.592 [info] > git remote --verbose [5ms]
+2024-07-22 11:38:05.597 [info] > git config --get commit.template [7ms]
+2024-07-22 11:38:05.599 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:38:05.599 [warning] No such branch: master.
+2024-07-22 11:38:05.635 [info] > git status -z -uall [32ms]
+2024-07-22 11:38:05.690 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [35ms]
+2024-07-22 11:38:05.690 [warning] No such branch: master.
+2024-07-22 11:38:10.694 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:38:10.699 [info] > git remote --verbose [5ms]
+2024-07-22 11:38:10.703 [info] > git config --get commit.template [5ms]
+2024-07-22 11:38:10.705 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:38:10.706 [warning] No such branch: master.
+2024-07-22 11:38:10.745 [info] > git status -z -uall [35ms]
+2024-07-22 11:38:10.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [31ms]
+2024-07-22 11:38:10.796 [warning] No such branch: master.
+2024-07-22 11:38:15.802 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:38:15.807 [info] > git remote --verbose [5ms]
+2024-07-22 11:38:15.811 [info] > git config --get commit.template [5ms]
+2024-07-22 11:38:15.813 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-22 11:38:15.813 [warning] No such branch: master.
+2024-07-22 11:38:15.847 [info] > git status -z -uall [30ms]
+2024-07-22 11:38:15.894 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [34ms]
+2024-07-22 11:38:15.894 [warning] No such branch: master.
+2024-07-22 11:38:20.897 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/--git-common-dir/config'
+2024-07-22 11:38:20.902 [info] > git remote --verbose [5ms]
+2024-07-22 11:38:20.907 [info] > git config --get commit.template [5ms]
+2024-07-22 11:38:20.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-22 11:38:20.909 [warning] No such branch: master.
+2024-07-22 11:38:20.943 [info] > git status -z -uall [30ms]
+2024-07-22 11:38:20.982 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [29ms]
+2024-07-22 11:38:20.983 [warning] No such branch: master.

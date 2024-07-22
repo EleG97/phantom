@@ -1,0 +1,65 @@
+# Questo file viminfo è stato generato da Vim 7.4.
+# File modificabile, attento a quel che fai!
+
+# Valore di 'encoding' al momento della scrittura di questo file
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Linea di Comando Storia (da più recente a meno recente):
+:wq
+:q!
+
+# Stringa di Ricerca Storia (da più recente a meno recente):
+
+# Espressione Storia (da più recente a meno recente):
+
+# Linea di Input Storia (da più recente a meno recente):
+
+# Linea di Input Storia (da più recente a meno recente):
+
+# Registri:
+
+# File mark:
+'0  1  0  /cluster/egoria/params_elena.txt
+'1  31  13  /cluster/egoria/run.job
+'2  16  0  ~/.bashrc
+'3  3  18  ~/.bashrc
+
+# Jumplist (dai più recenti):
+-'  1  0  /cluster/egoria/params_elena.txt
+-'  31  13  /cluster/egoria/run.job
+-'  1  0  /cluster/egoria/run.job
+-'  16  0  ~/.bashrc
+-'  3  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  16  0  ~/.bashrc
+-'  3  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  31  13  /cluster/egoria/run.job
+-'  1  0  /cluster/egoria/run.job
+-'  16  0  ~/.bashrc
+-'  3  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+-'  16  0  ~/.bashrc
+-'  3  0  ~/.bashrc
+-'  1  0  ~/.bashrc
+
+# Storia dei mark all'interno dei file (dai più recenti ai meno recenti):
+
+> /cluster/egoria/params_elena.txt
+	"	1	0
+
+> /cluster/egoria/run.job
+	"	31	13
+	^	31	14
+	.	31	13
+	+	31	13
+
+> ~/.bashrc
+	"	16	0
+	^	16	0
+	.	15	19
+	+	3	0
+	+	15	19

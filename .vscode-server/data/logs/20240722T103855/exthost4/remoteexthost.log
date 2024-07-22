@@ -1,0 +1,634 @@
+2024-07-22 12:25:10.838 [info] Extension host with pid 239471 started
+2024-07-22 12:25:10.839 [error] Error: EEXIST: file already exists, open '/home/egoria/.vscode-server/data/User/workspaceStorage/4ca15e25ad16a5ddcfffb0a9018312bd/vscode.lock'
+2024-07-22 12:25:10.840 [info] Lock '/home/egoria/.vscode-server/data/User/workspaceStorage/4ca15e25ad16a5ddcfffb0a9018312bd/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-22 12:25:10.852 [info] Lock '/home/egoria/.vscode-server/data/User/workspaceStorage/4ca15e25ad16a5ddcfffb0a9018312bd/vscode.lock': The lock does not look stale, elapsed: 800 ms, giving up.
+2024-07-22 12:25:10.867 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-07-22 12:25:10.879 [info] Lock '/home/egoria/.vscode-server/data/User/workspaceStorage/4ca15e25ad16a5ddcfffb0a9018312bd-1/vscode.lock': Lock acquired.
+2024-07-22 12:25:10.903 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-07-22 12:25:10.935 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-07-22 12:25:10.935 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-07-22 12:25:11.186 [info] Eager extensions activated
+2024-07-22 12:25:11.187 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-07-22 12:25:11.187 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-07-22 12:25:11.323 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1331
+2024-07-22 12:25:11.343 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-07-22 12:25:11.626 [warning] [Decorations] CAPPING events from decorations provider vscode.git 308
+2024-07-22 12:25:11.658 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1331
+2024-07-22 12:25:11.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 308
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:11.944 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.382 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:25:12.662 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:25:12.945 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.946 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.948 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.949 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.950 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.951 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.952 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.953 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.954 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.955 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.956 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.957 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.957 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.958 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.959 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.959 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.960 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.961 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.961 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.962 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.962 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.963 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.963 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:25:12.964 [error] Error: Git error
+	at ChildProcess.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027083)
+	at ChildProcess.emit (node:events:530:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-07-22 12:33:49.870 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1331
+2024-07-22 12:33:50.882 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:33:54.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:33:55.973 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:46:44.669 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:46:45.678 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:46:49.775 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:46:50.782 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:46:54.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:46:55.880 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:46:59.969 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:47:00.979 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:47:05.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:47:06.074 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:47:10.166 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:47:11.174 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:47:15.256 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:47:16.263 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:47:20.345 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:47:21.354 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:49:51.736 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:49:52.748 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:49:56.009 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2024-07-22 12:49:56.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:49:57.845 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:50:01.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:50:02.940 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:50:56.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:50:57.941 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:08.204 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:09.212 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:13.295 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:14.303 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:18.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:19.400 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:23.484 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:24.493 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:28.579 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:29.588 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:33.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:34.679 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:38.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:39.775 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:44.421 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:45.427 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:49.515 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:50.521 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)
+2024-07-22 12:51:54.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1330
+2024-07-22 12:51:55.618 [error] Error: No such branch: master.
+	at F.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:935457)
+	at async T.retryRun (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1028191)
+	at async T.run (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1027795)
+	at async T.getBranch (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016176)
+	at async T.getBranchBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:1016462)
+	at async t.GitHistoryProvider.resolveHEADMergeBase (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:945925)
+	at async t.GitHistoryProvider.onDidRunGitStatus (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/main.js:2:940157)

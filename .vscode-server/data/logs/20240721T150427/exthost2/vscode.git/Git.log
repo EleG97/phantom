@@ -1,0 +1,85 @@
+2024-07-21 16:42:18.472 [info] Log level: Info
+2024-07-21 16:42:18.472 [info] Validating found git in: "git"
+2024-07-21 16:42:18.472 [info] Using git "1.8.3.1" from "git"
+2024-07-21 16:42:18.472 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-21 16:42:18.472 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-21 16:42:18.474 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-21 16:42:18.480 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-21 16:42:18.489 [info] Open repository: /home/egoria/phantom
+2024-07-21 16:42:18.493 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/phantom/--git-common-dir/config'
+2024-07-21 16:42:18.527 [info] > git rev-parse --show-toplevel [28ms]
+2024-07-21 16:42:18.527 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-21 16:42:18.527 [info] > git config --get commit.template [32ms]
+2024-07-21 16:42:18.527 [info] > git remote --verbose [34ms]
+2024-07-21 16:42:18.544 [info] > git rev-parse --show-toplevel [13ms]
+2024-07-21 16:42:18.544 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-21 16:42:18.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [6ms]
+2024-07-21 16:42:18.552 [info] > git rev-parse --show-toplevel [5ms]
+2024-07-21 16:42:18.552 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-21 16:42:18.556 [info] > git rev-list --left-right --count master...origin/master [4ms]
+2024-07-21 16:42:18.559 [warning] ENOENT: no such file or directory, open '/home/egoria/phantom/.git/refs/remotes/origin/master'
+2024-07-21 16:42:18.559 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-21 16:42:18.559 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-21 16:42:18.562 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-07-21 16:42:18.565 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-21 16:42:18.565 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-21 16:42:18.570 [info] > git rev-parse --show-toplevel [1ms]
+2024-07-21 16:42:18.574 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-21 16:42:18.577 [info] Open repository: /home/egoria/gizmo-public3
+2024-07-21 16:42:18.583 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/--git-common-dir/config'
+2024-07-21 16:42:18.585 [info] > git status -z -uall [20ms]
+2024-07-21 16:42:18.608 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/phantom/--git-common-dir/config'
+2024-07-21 16:42:18.612 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [23ms]
+2024-07-21 16:42:18.614 [info] > git config --get commit.template [29ms]
+2024-07-21 16:42:18.614 [info] > git remote --verbose [31ms]
+2024-07-21 16:42:18.615 [info] > git config --get commit.template [4ms]
+2024-07-21 16:42:18.615 [info] > git remote --verbose [7ms]
+2024-07-21 16:42:18.620 [info] > git rev-list --left-right --count master...origin/master [6ms]
+2024-07-21 16:42:18.623 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [6ms]
+2024-07-21 16:42:18.625 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-07-21 16:42:18.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [9ms]
+2024-07-21 16:42:18.630 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-07-21 16:42:18.633 [info] > git rev-list --left-right --count master...origin/master [8ms]
+2024-07-21 16:42:18.634 [info] > git rev-list --left-right --count master...origin/master [4ms]
+2024-07-21 16:42:18.636 [warning] ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/.git/refs/remotes/origin/master'
+2024-07-21 16:42:18.638 [warning] ENOENT: no such file or directory, open '/home/egoria/phantom/.git/refs/remotes/origin/master'
+2024-07-21 16:42:18.638 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-07-21 16:42:18.641 [info] > git merge-base refs/heads/master refs/remotes/origin/master [8ms]
+2024-07-21 16:42:18.643 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2024-07-21 16:42:18.647 [info] > git status -z -uall [6ms]
+2024-07-21 16:42:18.662 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/--git-common-dir/config'
+2024-07-21 16:42:18.665 [info] > git status -z -uall [20ms]
+2024-07-21 16:42:18.665 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [15ms]
+2024-07-21 16:42:18.671 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [28ms]
+2024-07-21 16:42:18.723 [info] > git diff --name-status -z --diff-filter=ADMR 929c9d10b852bcd62569846d7da5be2620d9560e...refs/remotes/origin/master [49ms]
+2024-07-21 16:42:18.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [53ms]
+2024-07-21 16:42:18.726 [info] > git rev-list --left-right --count master...origin/master [59ms]
+2024-07-21 16:42:18.729 [info] > git config --get commit.template [65ms]
+2024-07-21 16:42:18.729 [info] > git remote --verbose [67ms]
+2024-07-21 16:42:18.730 [info] > git rev-list --left-right --count master...origin/master [4ms]
+2024-07-21 16:42:18.735 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2024-07-21 16:42:18.738 [info] > git config --local branch.master.vscode-merge-base [6ms]
+2024-07-21 16:42:18.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2024-07-21 16:42:18.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [9ms]
+2024-07-21 16:42:18.746 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-07-21 16:42:18.749 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [9ms]
+2024-07-21 16:42:18.749 [info] > git rev-list --left-right --count master...origin/master [3ms]
+2024-07-21 16:42:18.752 [warning] ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/.git/refs/remotes/origin/master'
+2024-07-21 16:42:18.752 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [3ms]
+2024-07-21 16:42:18.755 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2024-07-21 16:42:18.757 [info] > git diff --name-status -z --diff-filter=ADMR 97ff3cbecc93564800b50bfd6814f99bcd9e20f7...refs/remotes/origin/master [3ms]
+2024-07-21 16:42:18.762 [info] > git status -z -uall [5ms]
+2024-07-21 16:42:18.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [6ms]
+2024-07-21 16:42:18.776 [info] > git rev-list --left-right --count master...origin/master [2ms]
+2024-07-21 16:42:18.780 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-07-21 16:42:18.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [4ms]
+2024-07-21 16:42:18.981 [info] > git show --textconv :src/utils/analysis_dustydisc.f90 [6ms]
+2024-07-21 16:42:18.982 [info] > git ls-files --stage -- /home/egoria/phantom/src/utils/analysis_dustydisc.f90 [4ms]
+2024-07-21 16:42:18.988 [info] > git cat-file -s fd25f858e005bd677e546f87c5068d271b0a0311 [3ms]
+2024-07-21 16:42:19.048 [info] > git check-ignore -v -z --stdin [4ms]

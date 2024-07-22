@@ -1,0 +1,125 @@
+2024-07-18 15:19:48.513 [info] Log level: Info
+2024-07-18 15:19:48.513 [info] Validating found git in: "git"
+2024-07-18 15:19:48.513 [info] Using git "1.8.3.1" from "git"
+2024-07-18 15:19:48.513 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-18 15:19:48.513 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-18 15:19:48.518 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 15:19:48.519 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-18 15:19:48.523 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 15:19:48.523 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-18 15:19:48.528 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 15:19:48.528 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-18 15:19:48.532 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 15:19:48.532 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-18 15:19:48.536 [info] > git rev-parse --show-toplevel [2ms]
+2024-07-18 15:19:48.536 [info] fatal: Not a git repository (or any parent up to mount point /home)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-07-18 15:19:48.542 [info] > git rev-parse --show-toplevel [3ms]
+2024-07-18 15:19:48.547 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-07-18 15:19:48.556 [info] Open repository: /home/egoria/gizmo-public3
+2024-07-18 15:19:48.560 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/--git-common-dir/config'
+2024-07-18 15:19:48.566 [info] > git remote --verbose [6ms]
+2024-07-18 15:19:48.567 [info] > git config --get commit.template [3ms]
+2024-07-18 15:19:48.569 [info] > git rev-parse --show-toplevel [4ms]
+2024-07-18 15:19:48.591 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2024-07-18 15:19:48.593 [info] Open repository: /home/egoria/phantom
+2024-07-18 15:19:48.611 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/phantom/--git-common-dir/config'
+2024-07-18 15:19:48.616 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [47ms]
+2024-07-18 15:19:48.619 [info] > git config --get commit.template [6ms]
+2024-07-18 15:19:48.619 [info] > git remote --verbose [8ms]
+2024-07-18 15:19:48.623 [info] > git rev-list --left-right --count master...origin/master [5ms]
+2024-07-18 15:19:48.626 [warning] ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/.git/refs/remotes/origin/master'
+2024-07-18 15:19:48.628 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-07-18 15:19:48.637 [info] > git status -z -uall [6ms]
+2024-07-18 15:19:48.722 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/--git-common-dir/config'
+2024-07-18 15:19:48.726 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [85ms]
+2024-07-18 15:19:48.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [107ms]
+2024-07-18 15:19:48.734 [info] > git rev-list --left-right --count master...origin/master [5ms]
+2024-07-18 15:19:48.738 [info] > git config --get commit.template [13ms]
+2024-07-18 15:19:48.739 [info] > git remote --verbose [16ms]
+2024-07-18 15:19:48.747 [info] > git config --local branch.master.vscode-merge-base [8ms]
+2024-07-18 15:19:48.747 [warning] git config failed: Failed to execute git
+2024-07-18 15:19:48.751 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [8ms]
+2024-07-18 15:19:48.754 [info] > git reflog master --grep-reflog=branch: Created from *. [4ms]
+2024-07-18 15:19:48.757 [info] > git rev-list --left-right --count master...origin/master [24ms]
+2024-07-18 15:19:48.758 [info] > git rev-list --left-right --count master...origin/master [5ms]
+2024-07-18 15:19:48.760 [warning] ENOENT: no such file or directory, open '/home/egoria/phantom/.git/refs/remotes/origin/master'
+2024-07-18 15:19:48.763 [warning] ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/.git/refs/remotes/origin/master'
+2024-07-18 15:19:48.764 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [7ms]
+2024-07-18 15:19:48.768 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2024-07-18 15:19:48.771 [info] > git rev-parse refs/remotes/origin/master [11ms]
+2024-07-18 15:19:48.780 [info] > git status -z -uall [9ms]
+2024-07-18 15:19:48.780 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [13ms]
+2024-07-18 15:19:48.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [4ms]
+2024-07-18 15:19:48.795 [info] > git config --local branch.master.vscode-merge-base origin/master [12ms]
+2024-07-18 15:19:48.798 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/--git-common-dir/config'
+2024-07-18 15:19:48.801 [info] > git rev-list --left-right --count master...origin/master [6ms]
+2024-07-18 15:19:48.806 [info] > git config --get commit.template [6ms]
+2024-07-18 15:19:48.806 [info] > git remote --verbose [8ms]
+2024-07-18 15:19:48.809 [info] > git config --local branch.master.vscode-merge-base [5ms]
+2024-07-18 15:19:48.812 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [4ms]
+2024-07-18 15:19:48.814 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-07-18 15:19:48.818 [info] > git rev-list --left-right --count master...origin/master [3ms]
+2024-07-18 15:19:48.820 [warning] ENOENT: no such file or directory, open '/home/egoria/gizmo-public3/.git/refs/remotes/origin/master'
+2024-07-18 15:19:48.820 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-07-18 15:19:48.823 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-07-18 15:19:48.826 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [3ms]
+2024-07-18 15:19:48.830 [info] > git status -z -uall [5ms]
+2024-07-18 15:19:48.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [3ms]
+2024-07-18 15:19:48.839 [info] > git diff --name-status -z --diff-filter=ADMR 97ff3cbecc93564800b50bfd6814f99bcd9e20f7...refs/remotes/origin/master [11ms]
+2024-07-18 15:19:48.841 [info] > git rev-list --left-right --count master...origin/master [2ms]
+2024-07-18 15:19:48.846 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-07-18 15:19:48.851 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-07-18 15:19:49.127 [info] > git check-ignore -v -z --stdin [5ms]
+2024-07-18 15:19:49.129 [info] > git check-ignore -v -z --stdin [4ms]
+2024-07-18 15:19:49.651 [info] > git status -z -uall [877ms]
+2024-07-18 15:19:49.667 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/phantom/--git-common-dir/config'
+2024-07-18 15:19:49.671 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [14ms]
+2024-07-18 15:19:49.675 [info] > git config --get commit.template [5ms]
+2024-07-18 15:19:49.676 [info] > git remote --verbose [8ms]
+2024-07-18 15:19:49.680 [info] > git rev-list --left-right --count master...origin/master [6ms]
+2024-07-18 15:19:49.684 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [5ms]
+2024-07-18 15:19:49.688 [info] > git config --local branch.master.vscode-merge-base [4ms]
+2024-07-18 15:19:49.688 [warning] git config failed: Failed to execute git
+2024-07-18 15:19:49.692 [info] > git rev-list --left-right --count master...origin/master [5ms]
+2024-07-18 15:19:49.695 [warning] ENOENT: no such file or directory, open '/home/egoria/phantom/.git/refs/remotes/origin/master'
+2024-07-18 15:19:49.696 [info] > git reflog master --grep-reflog=branch: Created from *. [5ms]
+2024-07-18 15:19:49.699 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2024-07-18 15:19:49.703 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-07-18 15:19:49.710 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-07-18 15:19:49.714 [info] > git status -z -uall [11ms]
+2024-07-18 15:19:49.722 [info] > git config --local branch.master.vscode-merge-base origin/master [9ms]
+2024-07-18 15:19:49.726 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/egoria/phantom/--git-common-dir/config'
+2024-07-18 15:19:49.729 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [11ms]
+2024-07-18 15:19:49.734 [info] > git config --get commit.template [4ms]
+2024-07-18 15:19:49.734 [info] > git remote --verbose [9ms]
+2024-07-18 15:19:49.738 [info] > git rev-list --left-right --count master...origin/master [5ms]
+2024-07-18 15:19:49.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [4ms]
+2024-07-18 15:19:49.744 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-07-18 15:19:49.749 [info] > git rev-list --left-right --count master...origin/master [5ms]
+2024-07-18 15:19:49.752 [warning] ENOENT: no such file or directory, open '/home/egoria/phantom/.git/refs/remotes/origin/master'
+2024-07-18 15:19:49.752 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [5ms]
+2024-07-18 15:19:49.756 [info] > git rev-parse refs/remotes/origin/master [4ms]
+2024-07-18 15:19:49.760 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2024-07-18 15:19:49.765 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [2ms]
+2024-07-18 15:19:49.769 [info] > git status -z -uall [10ms]
+2024-07-18 15:19:49.774 [info] > git diff --name-status -z --diff-filter=ADMR 929c9d10b852bcd62569846d7da5be2620d9560e...refs/remotes/origin/master [6ms]
+2024-07-18 15:19:49.775 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/master refs/remotes/master [2ms]
+2024-07-18 15:19:49.780 [info] > git rev-list --left-right --count master...origin/master [2ms]
+2024-07-18 15:19:49.785 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-07-18 15:19:49.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-07-18 15:20:00.532 [info] > git check-ignore -v -z --stdin [7ms]
+2024-07-18 15:20:00.533 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-18 15:20:04.804 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-18 15:20:06.035 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-18 15:20:07.448 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-18 15:20:10.871 [info] > git check-ignore -v -z --stdin [3ms]
+2024-07-18 15:20:45.066 [info] > git show --textconv :src/utils/analysis_dustydisc.f90 [7ms]
+2024-07-18 15:20:45.068 [info] > git ls-files --stage -- /home/egoria/phantom/src/utils/analysis_dustydisc.f90 [4ms]
+2024-07-18 15:20:45.075 [info] > git cat-file -s fd25f858e005bd677e546f87c5068d271b0a0311 [2ms]
+2024-07-18 15:20:45.305 [info] > git check-ignore -v -z --stdin [4ms]

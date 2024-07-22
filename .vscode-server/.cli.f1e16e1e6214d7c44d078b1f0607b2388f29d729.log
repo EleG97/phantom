@@ -1,0 +1,5 @@
+Listening on 127.0.0.1:40404
+[2024-07-22 12:25:10] info Disposed of connection to running server.
+looking for token 9f2f0453-49e0-4ef6-bf7c-3d96a4a938d3, got Some("9f2f0453-49e0-4ef6-bf7c-3d96a4a938d3")
+[2024-07-22 12:25:10] info Checking /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/log.txt and /home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/pid.txt for a running server...
+[2024-07-22 12:25:10] info Found running server (pid=229636)

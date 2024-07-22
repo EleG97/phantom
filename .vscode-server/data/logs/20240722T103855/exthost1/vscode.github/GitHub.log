@@ -1,0 +1,25 @@
+2024-07-22 10:38:58.193 [info] Log level: Info
+2024-07-22 10:38:58.602 [warning] Failed to update repository branch protection: No GitHub authentication session available.
+2024-07-22 10:51:56.325 [warning] Failed to update repository branch protection: Cancelled
+2024-07-22 10:53:14.577 [warning] Failed to update repository branch protection: Cancelled
+2024-07-22 10:58:50.329 [warning] Failed to update repository branch protection: Cancelled
+2024-07-22 10:59:04.202 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'egoria/phantom'.
+2024-07-22 10:59:04.203 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'egoria/phantom'.
+2024-07-22 10:59:04.208 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'egoria/phantom'.
+2024-07-22 10:59:22.088 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'EleG97/phantom'.
+2024-07-22 11:01:36.126 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'EleG97/phantom'.
+2024-07-22 11:01:46.937 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'egoria/phantom'.
+2024-07-22 11:01:53.002 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'USERNAME/phantom'.
+2024-07-22 11:03:03.595 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'EleG97/phantom'.
+2024-07-22 11:15:29.073 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'EleG97/phantom'.
+2024-07-22 11:15:43.368 [warning] Failed to update repository branch protection: Request failed due to following response errors:
+ - Could not resolve to a Repository with the name 'egoria/phantom'.

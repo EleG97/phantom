@@ -1,0 +1,34 @@
+2024-07-18 15:19:16.583 [info] 
+
+
+
+
+2024-07-18 15:19:16.594 [info] Extension host agent started.
+2024-07-18 15:19:16.633 [info] Started initializing default profile extensions in extensions installation folder. file:///home/egoria/.vscode-server/extensions
+2024-07-18 15:19:16.649 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/egoria/.vscode-server/extensions
+2024-07-18 15:19:16.652 [info] [<unknown>][3f63ce33][ExtensionHostConnection] New connection established.
+2024-07-18 15:19:16.661 [info] [<unknown>][60da9b34][ManagementConnection] New connection established.
+2024-07-18 15:19:17.153 [info] [<unknown>][3f63ce33][ExtensionHostConnection] <153729> Launched Extension Host Process.
+2024-07-18 15:19:39.092 [info] [<unknown>][f3a4f495][ExtensionHostConnection] New connection established.
+2024-07-18 15:19:39.098 [info] [<unknown>][f3a4f495][ExtensionHostConnection] <153793> Launched Extension Host Process.
+2024-07-18 15:19:39.099 [info] [<unknown>][f72ccbb0][ManagementConnection] New connection established.
+2024-07-18 15:20:08.288 [info] [<unknown>][60da9b34][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 15:24:16.595 [info] New EH opened, aborting shutdown
+2024-07-18 15:24:39.544 [info] [<unknown>][3f63ce33][ExtensionHostConnection] <153729> Extension Host Process exited with code: 0, signal: null.
+2024-07-18 15:39:05.319 [info] [<unknown>][f72ccbb0][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 15:52:25.883 [info] [<unknown>][60da9b34][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 15:52:25.886 [info] [<unknown>][f72ccbb0][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-18 15:52:25.888 [info] [<unknown>][f3825622][ExtensionHostConnection] New connection established.
+2024-07-18 15:52:25.890 [info] [<unknown>][e567b253][ManagementConnection] New connection established.
+2024-07-18 15:52:25.896 [info] [<unknown>][f3825622][ExtensionHostConnection] <156334> Launched Extension Host Process.
+2024-07-18 15:52:25.898 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-18 15:57:26.089 [info] [<unknown>][60da9b34][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-18 15:57:26.095 [info] [<unknown>][f72ccbb0][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-18 15:57:26.401 [info] [<unknown>][f3a4f495][ExtensionHostConnection] <153793> Extension Host Process exited with code: 0, signal: null.
+2024-07-18 18:04:19.561 [info] [<unknown>][e567b253][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-18 21:04:05.644 [info] [<unknown>][f3825622][ExtensionHostConnection] <156334> Extension Host Process exited with code: 0, signal: null.
+2024-07-18 21:04:05.644 [info] Last EH closed, waiting before shutting down
+2024-07-18 21:04:31.331 [info] [<unknown>][e567b253][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-07-18 21:09:05.645 [info] Last EH closed, shutting down

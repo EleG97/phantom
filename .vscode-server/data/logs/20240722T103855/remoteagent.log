@@ -1,0 +1,80 @@
+2024-07-22 10:38:55.413 [info] 
+
+
+
+
+2024-07-22 10:38:55.432 [info] Extension host agent started.
+2024-07-22 10:38:55.570 [info] [<unknown>][d5b86fe0][ExtensionHostConnection] New connection established.
+2024-07-22 10:38:55.581 [info] [<unknown>][77fa3526][ManagementConnection] New connection established.
+2024-07-22 10:38:56.001 [info] [<unknown>][d5b86fe0][ExtensionHostConnection] <229728> Launched Extension Host Process.
+2024-07-22 10:38:58.935 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateIcon (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26067)
+    at D.<computed> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-22 10:38:58.940 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:30817)
+    at A.updateTitle (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:26017)
+    at D.<computed> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:56:21292)
+    at Object.call (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:37:5367)
+    at c.s (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:5506)
+    at c.q (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4947)
+    at b.value (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:35:4247)
+    at n.B (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:741)
+    at n.fire (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:30:958)
+    at process.$e (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/platform/terminal/node/ptyHostMain.js:25:11142)
+    at process.emit (node:events:518:28)
+    at emit (node:internal/child_process:951:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-07-22 10:39:32.117 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 10:43:55.434 [info] New EH opened, aborting shutdown
+2024-07-22 10:46:34.333 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1667:5)
+2024-07-22 10:52:21.982 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 10:53:16.759 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 10:58:44.245 [error] AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1667:5)
+2024-07-22 10:58:56.213 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 10:59:04.494 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 10:59:22.149 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 11:01:36.180 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 11:01:47.000 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 11:01:53.139 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 11:03:03.877 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 11:15:29.184 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 11:15:43.425 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2024-07-22 11:19:41.211 [info] [<unknown>][7f1bc0cf][ExtensionHostConnection] New connection established.
+2024-07-22 11:19:41.217 [info] [<unknown>][7f1bc0cf][ExtensionHostConnection] <233705> Launched Extension Host Process.
+2024-07-22 11:19:41.219 [info] [<unknown>][8e556ecb][ManagementConnection] New connection established.
+2024-07-22 11:19:55.205 [info] [<unknown>][77fa3526][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-22 11:24:41.538 [info] [<unknown>][d5b86fe0][ExtensionHostConnection] <229728> Extension Host Process exited with code: 0, signal: null.
+2024-07-22 11:24:41.542 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/egoria/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/out/vs/server/node/server.main.js:192:6383)
+    at process.emit (node:events:518:28)
+2024-07-22 11:26:03.950 [info] [<unknown>][77fa3526][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-22 11:26:03.952 [info] [<unknown>][c1a67331][ManagementConnection] New connection established.
+2024-07-22 11:26:03.959 [info] [<unknown>][a64dad8e][ExtensionHostConnection] New connection established.
+2024-07-22 11:26:03.965 [info] [<unknown>][a64dad8e][ExtensionHostConnection] <234869> Launched Extension Host Process.
+2024-07-22 11:26:20.776 [info] [<unknown>][8e556ecb][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-22 11:31:04.083 [info] [<unknown>][77fa3526][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-22 11:31:04.489 [info] [<unknown>][7f1bc0cf][ExtensionHostConnection] <233705> Extension Host Process exited with code: 0, signal: null.
+2024-07-22 11:46:24.073 [info] [<unknown>][c1a67331][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-07-22 12:25:10.250 [info] [<unknown>][8e556ecb][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-22 12:25:10.251 [info] [<unknown>][c1a67331][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-07-22 12:25:10.253 [info] [<unknown>][5b202cfa][ExtensionHostConnection] New connection established.
+2024-07-22 12:25:10.261 [info] [<unknown>][5b202cfa][ExtensionHostConnection] <239471> Launched Extension Host Process.
+2024-07-22 12:25:10.264 [info] [<unknown>][4c6e5fec][ManagementConnection] New connection established.
+2024-07-22 12:30:10.362 [info] [<unknown>][8e556ecb][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-22 12:30:10.367 [info] [<unknown>][c1a67331][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-07-22 12:30:10.514 [info] [<unknown>][a64dad8e][ExtensionHostConnection] <234869> Extension Host Process exited with code: 0, signal: null.
