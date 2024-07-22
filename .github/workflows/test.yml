@@ -1,0 +1,90 @@
+name: test
+
+on:
+  push:
+    branches: [ master ]
+    paths-ignore:
+      - 'docs/**'
+      - 'README.md'
+  pull_request:
+    branches: [ master ]
+    paths-ignore:
+      - 'docs/**'
+      - 'README.md'
+
+env:
+  OMP_STACKSIZE: 512M
+  OMP_NUM_THREADS: 4
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        system:
+          - gfortran
+          - ifort
+        debug:
+          - no
+          - yes
+        input: # [SETUP, phantom_tests]
+          - ['test', '']
+          - ['testkd', '']
+          - ['testdust', 'dust']
+          - ['testgr', 'gr']
+          - ['testgrav', 'gravity ptmass']
+          - ['testgrowth', 'dustgrowth']
+          - ['testnimhd', 'nimhd']
+          - ['test2', '']
+          - ['testcyl', '']
+
+    name: |
+      test (SYSTEM=${{ matrix.system }},
+            DEBUG=${{ matrix.debug }},
+            SETUP=${{ matrix.input[0] }},
+            targets=${{ matrix.input[1] }})
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: "Nuke the github workspace before doing anything"
+      run: rm -r ${{ github.workspace }} && mkdir ${{ github.workspace }}
+
+    - name: Setup Intel repo
+      if: matrix.system == 'ifort'
+      uses: fortran-lang/setup-fortran@v1
+      with:
+          compiler: intel-classic
+
+    - name: "Clone phantom"
+      uses: actions/checkout@v4
+
+    - name: "Compile phantom"
+      run: make SETUP=${{ matrix.input[0] }} DEBUG=${{ matrix.debug }} phantomtest
+      env:
+        SYSTEM: ${{ matrix.system }}
+
+    - name: "Run phantom tests"
+      run: ./bin/phantomtest ${{ matrix.input[1] }}
+
+  # Gather results into a dummy job that will fail if the previous job fails
+  gather_results:
+    if: always()
+    needs:
+    - test
+
+    # This name matches the branch protection requirement
+    name: test
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check all tests
+      run: |
+        if [[ "${{ needs.test.result }}" == "success" ]]; then
+          echo "All tests succeeded"
+        else
+          echo "At least one test failed"
+          exit 1
+        fi
